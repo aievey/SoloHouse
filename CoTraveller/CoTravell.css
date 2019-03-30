@@ -1,0 +1,50 @@
+body {
+    background: url(./cover.jpg);
+    background-size:cover;
+    background-position: 0px -180px;
+    width: 100%;
+    
+}
+.text {
+    
+    background: rgba(255, 255, 255, 0.493);
+    background-size: cover;
+    height: 550px;    
+    text-align: center;
+    
+}
+
+.text h1 {
+    padding-top:2rem;
+    font-family: 'Poiret One', cursive;
+}
+.text p,ul {
+    font-family: 'Quicksand', sans-serif;
+    list-style-type: none;
+    font-size: 14px;
+}
+.text ul {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.textContent {
+    margin: 0vh 4vh;
+    }
+.clipArt i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eca91aa1;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.clipArt {
+    margin-top:3rem;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}

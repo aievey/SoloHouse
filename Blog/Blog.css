@@ -1,0 +1,40 @@
+body {
+    background: url(../WaterMark.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blogSection {
+    padding-top:1vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.blogCard {
+ width: 45vw;
+ height: 90vh;
+ background: rgba(255, 255, 255, 0.473);
+ box-shadow:0 2px 5px 0 rgba(0,0,0,0.26);
+ border-bottom: 1px solid red;
+ margin-bottom: 2rem;
+ 
+}
+.blogger {
+    float: right;
+    height: 90px;
+    width: 90px;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.26);
+    border-radius: 100%;
+    margin: 2rem;
+}
+.blogCard p {
+    font-family: 'Quicksand', sans-serif;
+    padding: 2rem;
+    text-align: justify;
+}
+.blogCard h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    padding-top: 2rem;
+    text-align: center;
+}

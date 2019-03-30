@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background: url(../WaterMark.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 3vw;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 2rem;
+}
+.text {
+    display: flex;
+    height:60vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}

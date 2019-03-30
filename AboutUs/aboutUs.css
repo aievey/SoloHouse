@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+}
+body {
+    width: 100%;
+    background-image: url(../WaterMark.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.vision {
+    margin-top: 5rem;
+}
+.clipArt {
+    margin-top: 5rem;
+}

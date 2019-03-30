@@ -1,0 +1,45 @@
+html, body {
+    height:100%;
+    width: 100%;
+}
+body {
+    width: 100%;
+    background-image: url(../WaterMark.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.vision {
+    /* padding-top: 20px; */
+    /* height: 100%; */
+    text-align:center;
+    margin: 0 70px;
+}
+h1 {
+    text-align: center;
+    letter-spacing: 1rem;
+    font-family: 'Poiret One', cursive;
+    font-size: 3vw;
+    transform: scale3d(1, 1, 1);
+}
+.vision pre {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.clipArt i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eca91aa1;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.clipArt {
+    margin-top:3rem;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
